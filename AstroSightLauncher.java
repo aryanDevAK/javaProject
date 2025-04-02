@@ -22,7 +22,7 @@ public class AstroSightLauncher {
         javafxButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
-                AstroSightFX.main(args);
+                AstroSightAWT.main(args);
             }
         });
 
